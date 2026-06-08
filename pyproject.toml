@@ -9,6 +9,7 @@ dependencies = [
     "langgraph>=0.2",
     "anthropic>=0.40",
     "pydantic>=2.8",
+    "unidiff>=0.7",
 ]
 
 [project.optional-dependencies]
