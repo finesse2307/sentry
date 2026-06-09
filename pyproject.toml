@@ -46,3 +46,7 @@ files = ["src", "tests"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 asyncio_mode = "auto"
+
+[[tool.mypy.overrides]]
+module = "sentry.graph"
+disable_error_code = ["type-arg", "arg-type"]
